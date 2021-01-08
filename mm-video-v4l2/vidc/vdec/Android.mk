@@ -21,6 +21,7 @@ libmm-vdec-def += -DENABLE_DEBUG_ERROR
 libmm-vdec-def += -UINPUT_BUFFER_LOG
 libmm-vdec-def += -UOUTPUT_BUFFER_LOG
 libmm-vdec-def += -Wno-parentheses
+libmm-vdec-def += -Wno-unused-parameter
 libmm-vdec-def += -D_ANDROID_ICS_
 libmm-vdec-def += -DPROCESS_EXTRADATA_IN_OUTPUT_PORT
 
